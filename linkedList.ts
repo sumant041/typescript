@@ -1,7 +1,7 @@
 import LinkedListNode from './linkedListNode';
 
 export default class LinkedList {
-  private headSentinel;
+  public headSentinel;
   constructor() {
     this.headSentinel = new LinkedListNode(null);
   }
