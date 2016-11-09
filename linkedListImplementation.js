@@ -1,0 +1,15 @@
+"use strict";
+var linkedListNode_1 = require("./linkedListNode");
+var linkedList_1 = require("./linkedList");
+var ll = new linkedList_1.default;
+var n1 = new linkedListNode_1.default(1);
+ll.insert(0, n1);
+var n2 = new linkedListNode_1.default(2);
+ll.insert(0, n2);
+var n3 = new linkedListNode_1.default(3);
+ll.insert(0, n3);
+var n4 = new linkedListNode_1.default(4);
+ll.insert(1, n4);
+ll.print();
+ll.delete(1);
+ll.print();
